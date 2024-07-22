@@ -1,0 +1,13 @@
+[package]
+name = "check404"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.5"
+scraper = "0.19.0"
+tokio = { version = "1.38.0", features = ["full"] }
+url = "2.5.2"
+tokio-macros = "2.2.0"
+regex = "1.10.5"
+tempfile = "3.10.1"
